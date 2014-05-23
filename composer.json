@@ -1,0 +1,21 @@
+{
+    "name": "root/billy-jmc-donald.io",
+    "description": "packages needed to make my sweet ass site.",
+    "require": {
+        "phpunit/phpunit": "4.*",
+        "guzzlehttp/guzzle": "4.*",
+        "mailchimp/mailchimp": "*",
+        "monolog/monolog": "1.0.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy McDonald",
+            "email": "billyjmcdonald@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+
+}
